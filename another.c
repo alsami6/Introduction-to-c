@@ -3,7 +3,10 @@
 
 int main()
 {
-    printf("%d", 3+1);
+    long long a, b;
     
+    scanf("%lld %lld", &a,&b);
+    printf("%lld", a*b);
+
     return 0;
 }
